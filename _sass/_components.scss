@@ -19,6 +19,9 @@ code {
   color: $color-body-text;
 }
 
+.content {
+  overflow-x: hidden;
+}
 .highlighter-rouge > .highlight {
   $margin-size: 3000px;
   margin-left: -$margin-size;
