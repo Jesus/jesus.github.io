@@ -2,7 +2,7 @@
 
 // Code formatting
 pre {
-    border-left: $spacer-1 solid $color-border;
+    // border-left: $spacer-1 solid $color-border;
     margin: $spacer-3 0;
     padding-left: 16px;
     width: (9 / 12 * 100%); // matches col-9
@@ -19,6 +19,14 @@ code {
   color: $color-body-text;
 }
 
+.highlighter-rouge > .highlight {
+  $margin-size: 3000px;
+  margin-left: -$margin-size;
+  margin-right: -$margin-size;
+  padding-left: $margin-size;
+  padding-right: $margin-size;
+  background-color: #eee;
+}
 
 .prose {
 
