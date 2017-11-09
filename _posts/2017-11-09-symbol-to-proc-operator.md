@@ -18,12 +18,12 @@ name is misleading in several ways:
 2. You can't use it to create a `Proc` object, this is explained this with
    detail below.
 
-## Calling a method with a block (proc to block)
+## Using it at method invocation (proc to block)
 
-To be precise, the operator does create a `Proc` object, but it's just
-because Ruby needs to do this internally as part of the process to build the
-block which will be passed to the method being invoked. As this proc
-is internal, we can't access it from our Ruby code.
+To be precise, the operator does create a `Proc` object when used with a
+symbol, but it's just because Ruby needs to do this internally as part of
+the process to build the block which will be passed to the method being
+invoked. As this proc is internal, we can't access it from our Ruby code.
 
 What the operator really does is to pass its only operand as a block to the
 method we're invoking. It converts something to a block.
@@ -43,7 +43,7 @@ almost the same.
 
 It's not so obvious how to convert a `Symbol` to a block. Here's where
 `:to_proc` comes in. When the object given to the operator isn't a
-*proc*, `:to_proc` will be invoked on the parameter to produce a *proc* that
+proc, `:to_proc` will be invoked on the parameter to produce a proc that
 will later be converted to a block.
 
 So, the snippet can be rewritten as the following equivalent:
@@ -53,10 +53,10 @@ So, the snippet can be rewritten as the following equivalent:
 # => ["A", "B", "C"]
 ```
 
-Notice that we haven't used the operator to build the *proc*, but to build the
+Notice that we haven't used the operator to build the proc, but to build the
 block.
 
-## Receiving a block as a proc (block to proc)
+## Using it at method definition (block to proc)
 
 Just for completeness, I'll mention that the same operator can be used in a
 different context to convert a block to a proc.

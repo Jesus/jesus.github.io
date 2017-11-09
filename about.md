@@ -10,7 +10,7 @@ on Rails since 2008.
 I my spare time I may...
   - Write moooar code! I love open source, I've
     [contributed to Rails][rails-contribution] and I've written the
-    [`dropbox_api` gem][dropbox-gem]. I've also been tinkering with machine
+    [*dropbox_api* gem][dropbox-gem]. I've also been tinkering with machine
     learning lately.
   - Practice some outdoor sports, weather is often nice and sunny in Alicante,
     Spain.
