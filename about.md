@@ -7,7 +7,7 @@ permalink: /about/
 I'm a programmer and I work at [Visrez][visrez]. I've been working with Ruby
 on Rails since 2008.
 
-I my spare time I may...
+In my spare time I may...
   - Write moooar code! I love open source, I've
     [contributed to Rails][rails-contribution] and I've written the
     [*dropbox_api* gem][dropbox-gem]. I've also been tinkering with machine
