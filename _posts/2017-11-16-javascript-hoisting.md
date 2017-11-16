@@ -8,7 +8,8 @@ Computers often surprise me. Going down the road of understanding all the
 small details of programming languages, today I'm writing about
 *javascript hoisting*.
 
-Let's start by trying to guess what the output of this JS snippet would be:
+Let's start by trying to guess what the output of this javascript chunk would
+be:
 
 ```javascript
 a = "hello";
