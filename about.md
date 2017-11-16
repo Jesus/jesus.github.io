@@ -19,4 +19,4 @@ In my spare time I may...
 [rails-contribution]: http://contributors.rubyonrails.org/contributors/jesus-burgos/commits
 [dropbox-gem]: https://github.com/Jesus/dropbox_api
 [visrez]: http://www.visrez.com
-[loreto]: https://www.instagram.com/loreloim/
+[loreto]: https://www.instagram.com/loretoiniguez1/
