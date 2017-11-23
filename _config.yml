@@ -21,6 +21,7 @@ baseurl: ""
 url: "http://www.xuuso.com"
 twitter_username: xuuso
 github_username: Jesus
+disqus: xuuso
 
 # Build settings
 markdown: kramdown
