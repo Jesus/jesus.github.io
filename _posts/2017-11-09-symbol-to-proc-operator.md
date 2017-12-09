@@ -96,7 +96,7 @@ someone to avoid the confusion I had.
 I guess *block operator* is a better name, because what it really does is to
 convert procs to blocks and vice-versa.
 
-<!-- What do you think? -->
+What do you think?
 
 <!--
 Original idea:
