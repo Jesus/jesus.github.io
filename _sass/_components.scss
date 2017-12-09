@@ -34,6 +34,9 @@ code {
 }
 
 .prose {
+  cite {
+    font-size: 0.6em;
+  }
 
   p, ol, ul {
     font-size: $prose-font-size;
@@ -44,6 +47,16 @@ code {
       width: (10 / 12 * 100%); // matches col-10
     }
 
+    img {
+      max-height: 250px;
+    }
+    @media (min-width: $breakpoint-lg) {
+      img {
+        margin-right: -15%;
+        max-width: 40%;
+        float: right;
+      }
+    }
   }
 
   ul, ol {
