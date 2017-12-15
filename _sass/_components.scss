@@ -47,6 +47,12 @@ code {
       width: (10 / 12 * 100%); // matches col-10
     }
 
+    img.inline-text {
+      float: none;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
     img {
       max-height: 250px;
     }
