@@ -111,9 +111,32 @@ $$
 
 ## Training
 
-The challenge now is to find values for $$W$$ so that the previous equation
-remains valid for any value of $$x$$. Spoiler alert, we'll never find the
-perfect fit.
+The challenge now is to find values for $$W$$ so that:
+
+$$
+\text{For any image $x$ that contains a 6:}\\
+x
+\cdot
+\begin{bmatrix}
+w_1 \\ w_2 \\ w_3 \\ \cdots \\ w_{576}
+\end{bmatrix}
+=
+1
+$$
+
+
+$$
+\text{And for any image $x$ that doesn't contain a 6:}\\
+x
+\cdot
+\begin{bmatrix}
+w_1 \\ w_2 \\ w_3 \\ \cdots \\ w_{576}
+\end{bmatrix}
+=
+0
+$$
+
+Spoiler alert, we'll never find the perfect fit.
 
 But we'll get as close as possible.
 
