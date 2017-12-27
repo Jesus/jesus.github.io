@@ -196,7 +196,10 @@ has learned what a six is.
 ![Neuron](/assets/images/neuron.png)
 
 What we've seen in this article would be a very basic neural network model
-with a single fully connected layer of 576 neurons.
+with a single fully connected layer of neurons. More specifically, we had
+one single neuron with 576 inputs. This neuron was able to detect a particular
+digit, we could add 9 more neurons to detect all the other digits. So we'd have
+10 neurons and 10 outputs.
 
 Most useful neural networks use more complex architectures where the output
 of the first layer is the input of a second layer, and maybe a third one and
