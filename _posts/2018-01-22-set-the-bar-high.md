@@ -77,7 +77,7 @@ higher goals.
 
 I'm sharing this in the hope that it'll help others. But also I'm
 making myself a promise that I will keep challenging myself, in all facets of
-life, always push harder.
+life, always pushing harder.
 
 Lastly, the best part about sharing an opinion is to open discussion so please
 tell me what you think in the comments.
