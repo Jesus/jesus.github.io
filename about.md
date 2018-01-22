@@ -12,11 +12,12 @@ In my spare time I may...
     [contributed to Rails][rails-contribution] and I've written the
     [*dropbox_api* gem][dropbox-gem]. I've also been tinkering with machine
     learning lately.
-  - Practice some outdoor sports, weather is often nice and sunny in Alicante,
-    Spain.
+  - Practice some outdoor sports such as running, climbing or swimming. Weather
+    is often nice and sunny in [Alicante, Spain][alicante].
   - Enjoy life with [Loreto][loreto].
 
 [rails-contribution]: http://contributors.rubyonrails.org/contributors/jesus-burgos/commits
 [dropbox-gem]: https://github.com/Jesus/dropbox_api
 [visrez]: http://www.visrez.com
+[alicante]: https://en.wikipedia.org/wiki/Province_of_Alicante
 [loreto]: https://www.instagram.com/loretoiniguez1/
