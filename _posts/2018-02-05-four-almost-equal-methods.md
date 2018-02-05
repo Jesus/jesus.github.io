@@ -76,8 +76,8 @@ That function means:
   * If `obj1 == obj2` (in its C meaning), then return true.
   * Otherwise, rely on the object's implementation of `==`. Ie. `obj1.==(obj2)`.
 
-By default, the implementation of `==` is bound to `rb_obj_equal` so `===` will
-end up invoking `rb_obj_equal` in many cases.
+As we saw earlier, the default implementation of `==` is bound to
+`rb_obj_equal` so `===` will end up invoking `rb_obj_equal` in many cases.
 
 Let's now see where this all seems to be converging to, the definition of
 `rb_obj_equal`:
@@ -92,8 +92,8 @@ rb_obj_equal(VALUE obj1, VALUE obj2)
 ```
 
 At `Object` level, all four methods boil down to that simple value
-comparison at C level (or an equivalent one in `rb_equal`). It's pretty
-straightforward but we still don't know why so many different names are needed.
+comparison at C level (or an equivalent one in `rb_equal`). But we still don't
+know why so many different names are needed.
 
 That's because so far we've only looked at the core classes. If we zoom out
 we'll see how each method has a different meaning in the context of a subclass.
@@ -119,7 +119,8 @@ classes implement a refinement of one of these methods.
 
 <img src="/assets/images/subclasses_equal.jpg" class="inline-text large-image" />
 
-It also shows the internal C function that implements each method.
+I've also included the name the internal C function that implements each
+method.
 
 ### The case equality
 
@@ -162,10 +163,10 @@ In summary:
 
 * `equal?` is never overriden, therefore it'll always map to that `==`
   comparison at C level.
-* The equality operator `==` is overriden all subclasses to indicate
+* The equality operator `==` is overriden by all subclasses to indicate
   if two objects are equal or not, whatever that means in the context of that
   subclass.
-* `eql?` is overriden by just a few subclasses to implement a custom kind of
+* `eql?` is overriden by some subclasses to implement a custom kind of
   equality, like the example above with `Numeric`.
 * The case equality operator `===` is overriden by very few subclasses mainly
   with the purpose of making it easy to access from a case statement.
