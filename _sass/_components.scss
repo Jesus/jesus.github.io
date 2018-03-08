@@ -38,6 +38,19 @@ code {
     font-size: 0.6em;
   }
 
+  figure {
+    img {
+      width: 100%;
+      @media (min-width: $breakpoint-lg) {
+        width: 80%;
+      }
+    }
+    figcaption {
+      margin-top: -5px;
+      margin-bottom: 1em;
+    }
+  }
+
   p, ol, ul {
     font-size: $prose-font-size;
     margin-bottom: 1em;
