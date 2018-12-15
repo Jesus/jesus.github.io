@@ -1,33 +1,5 @@
 // Styling markdown output
 
-// Code formatting
-pre {
-    // border-left: $spacer-1 solid $color-border;
-    margin: $spacer-3 0;
-    overflow-x: auto;
-}
-
-code {
-    color: $color-code;
-    font-size: $body-font-size;
-}
-
-.highlight code {
-  color: $color-body-text;
-}
-
-.content {
-  overflow-x: hidden;
-}
-.highlighter-rouge > .highlight {
-  $margin-size: 3000px;
-  margin-left: -$margin-size;
-  margin-right: -$margin-size;
-  padding-left: $margin-size;
-  padding-right: $margin-size;
-  background-color: lighten(#E74727, 43%);
-}
-
 /* Post */
 .post-tags {
   color: #ccc;
@@ -147,7 +119,7 @@ code {
   }
 
   // Markdown tables
-  table {
+  table:not(.rouge-table) {
     border-collapse: collapse;
     display: block;
     width: 100%;
@@ -179,5 +151,33 @@ code {
       border-bottom: 2px solid $color-body-text;
     }
   }
+}
 
+/* Code */
+pre {
+  // border-left: $spacer-1 solid $color-border;
+  margin: $spacer-3 0;
+  overflow-x: auto;
+}
+code {
+  color: $color-code;
+  font-size: $body-font-size;
+}
+.content {
+  overflow-x: hidden;
+}
+.highlighter-rouge .highlight, figure.highlight {
+  $margin-size: 3000px;
+  margin-left: -$margin-size;
+  margin-right: -$margin-size;
+  padding-left: $margin-size;
+  padding-right: $margin-size;
+  background-color: lighten(#E74727, 43%);
+
+  code {
+    color: $color-body-text;
+  }
+  .lineno {
+    color: lighten(#E74727, 36%);
+  }
 }
