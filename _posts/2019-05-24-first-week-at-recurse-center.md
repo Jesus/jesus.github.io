@@ -2,7 +2,9 @@
 layout: post
 title:  First week at Recurse Center!
 date:   2019-05-24 11:28:29 -0400
-categories: programming
+categories: personal-development
+redirect_from:
+  - /programming/2019/05/24/first-week-at-recurse-center.html
 ---
 
 ![Recurse Center](/assets/images/recurse-center.png)
