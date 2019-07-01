@@ -10,3 +10,16 @@
     </ul>
   </div>
 </div>
+
+<script type="text/javascript">
+  (function () {
+    var host = location.hostname;
+    var links = document.querySelectorAll('a[href]');
+
+    for (var i = 0; i < links.length; i++) {
+      if (links[i].hostname === host) continue;
+
+      links[i].target = '_blank'
+    }
+  })();
+</script>
