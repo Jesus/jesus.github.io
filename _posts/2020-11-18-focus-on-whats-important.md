@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Focus on what's important
-date:   2020-11-16 09:00:00 +0100
+date:   2020-11-18 00:17:00 +0000
 categories: career productivity wave
 ---
 
@@ -47,7 +47,7 @@ If anything of the above resonates with you, definitely consider
 applying to one of our [open positions][careers-wave].
 
 Or, you know, at least give some thought to what's the ultimate goal of the
-company you work for and its impact and decide if it's worth your time or
+company you work for and its impact, then decide if it's worth your time or
 find a company that works on something that you care about. Life is too short
 to waste it.
 
